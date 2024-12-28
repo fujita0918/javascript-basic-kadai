@@ -1,10 +1,7 @@
 const Btn = document.getElementById('btn');
 const changeText = document.getElementById('text');
 
-Btn.addEventListener('click', () => {
-    const addText = document.createElement('h2');
-    addText.textContent = 'ボタンをクリックしました'; 
-    changeText.appendChild(addText);
+    Btn.addEventListener('click', () => {
     text.textContent = 'ボタンをクリックしました。';
 });
 
